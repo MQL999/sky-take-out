@@ -7,7 +7,7 @@ sky:
     username: root
     password: minqiliang026415
   alioss:
-    endpoint: oss-cn-hangzhou.aliyuncs.com
-    access-key-id: LTAI5t8BtKjYhUFDzCHeCxrm
-    access-key-secret: DmVL2F7Af3ptC0CY0UMlfdTuZgzZux
-    bucket-name: min-sky-take-out
+    endpoint: *************
+    access-key-id: *****************
+    access-key-secret: **************
+    bucket-name: ***************
