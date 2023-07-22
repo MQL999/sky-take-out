@@ -13,7 +13,7 @@
                 and type = #{type}
             </if>
         </where>
-        order by sort asc
+        order by sort asc, create_time desc
     </select>
 
     <!-- 根据id修改分类信息 -->
