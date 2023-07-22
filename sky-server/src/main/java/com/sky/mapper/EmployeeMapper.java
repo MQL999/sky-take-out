@@ -53,4 +53,7 @@ public interface EmployeeMapper {
     @Update("update employee set name=#{name},username=#{username},phone=#{phone},sex=#{sex},id_number=#{idNumber}," +
             "update_time=#{updateTime},update_user=#{updateUser} where id = #{id}")
     void update(Employee employee);
+
+    @Update("update employee set password = #{password} where id = #{id}")
+    void updatePassword(Employee employee);
 }
