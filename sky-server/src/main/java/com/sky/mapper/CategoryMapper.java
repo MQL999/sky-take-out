@@ -52,4 +52,12 @@ public interface CategoryMapper {
      */
     @Select("select * from category where type = #{type} and status = 1 order by sort asc")
     List<Category> list(Integer type);
+
+    /**
+     * 根据id查询分类
+     * @param id
+     * @return
+     */
+    @Select("select * from category where id = #{id}")
+    Category getById(Long id);
 }
